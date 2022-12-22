@@ -1,10 +1,5 @@
 pipeline{
     agent any
-
-    environment{
-        cloneRepo = ''
-
-    }
     stages{
         stage('fetching'){
             echo "fetching"
